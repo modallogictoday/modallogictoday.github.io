@@ -1,0 +1,100 @@
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#centerContainer {
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-top: 15px;
+}
+
+h4 {
+  color: #34495e;
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  /* margin-top: 15px; */
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+  color: #666;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.codeline {
+  font-family: monospace;
+  background-color: #eee;
+  padding: 3px;
+  margin: 5px 0;
+}
+
+
+/* Add to existing CSS */
+.blurb {
+  margin: 25px 0;
+  line-height: 1.6;
+}
+
+.blurb em {
+  font-style: italic;
+  color: #2c3e50;
+}
+
+.section h4 {
+  margin-bottom: 8px;
+}
+
+.section p {
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Add these rules */
+.section-links ul {
+  padding-left: 0;
+}
+
+.section-links li {
+  margin: 15px 0;
+}
+
+.section-links a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+a[href^="mailto:"] {
+  color: #2980b9;
+}
