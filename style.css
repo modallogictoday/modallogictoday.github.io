@@ -215,9 +215,6 @@ h3 a:hover {
   flex: 1;
 }
 
-
-/* Update these specific rules only */
-
 .section-container {
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -230,69 +227,20 @@ h3 a:hover {
 }
 
 .section-container h2 {
-  font-size: 1.3rem;  /* Reduced from 1.5rem */
+  font-size: 1.3rem;
   color: #2c3e50;
   margin-top: 0;
-  margin-bottom: 8px;  /* Reduced from 10px */
-  padding-bottom: 6px;  /* Reduced from 8px */
+  margin-bottom: 8px;
+  padding-bottom: 6px;
   border-bottom: 2px solid #b7c5e0;
 }
 
 .thematic-editor {
   color: #666;
-  margin-bottom: 15px;  /* Reduced from 20px */
-  font-size: 0.95rem;  /* Slightly smaller */
-}
-
-.chapter-list li {
-  margin-bottom: 10px;  /* Reduced from 12px */
-  padding-bottom: 10px;  /* Reduced from 12px */
-  display: flex;
-  flex-direction: column;
-  line-height: 1.4;  /* Reduced from 1.5 */
-}
-
-.chapter-title {
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 3px;  /* Reduced from 4px */
-  display: block;
-}
-
-.chapter-authors {
-  color: #666;
+  margin-bottom: 15px;
   font-size: 0.95rem;
-  font-style: italic;
 }
 
-
-/*
-
-.section-container {
-  margin-bottom: 40px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.section-container:last-of-type {
-  border-bottom: none;
-  margin-bottom: 20px;
-}
-
-.section-container h2 {
-  font-size: 1.5rem;
-  color: #2c3e50;
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #b7c5e0;
-}
-
-.thematic-editor {
-  color: #666;
-  margin-bottom: 20px;
-  font-size: 1rem;
-}
 
 .thematic-editor em {
   color: #2c3e50;
@@ -306,12 +254,11 @@ h3 a:hover {
 }
 
 .chapter-list li {
-  margin-bottom: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px dashed #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .chapter-list li:last-child {
@@ -321,7 +268,7 @@ h3 a:hover {
 .chapter-title {
   font-weight: 600;
   color: #333;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   display: block;
 }
 
@@ -330,5 +277,3 @@ h3 a:hover {
   font-size: 0.95rem;
   font-style: italic;
 }
-
-*/
