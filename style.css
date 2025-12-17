@@ -150,11 +150,6 @@ a[href^="mailto:"] {
       margin: 30px 0;
     }
 
-    .schedule-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
     .schedule-table th {
       text-align: left;
       padding: 10px 5px;
@@ -187,3 +182,153 @@ a[href^="mailto:"] {
     .multi-date {
       font-weight: bold;
     }
+
+h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.timeline {
+  margin: 30px 0;
+}
+
+.timeline-item {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  align-items: baseline;
+}
+
+.timeline-date {
+  width: 150px;
+  font-weight: bold;
+  color: #2c3e50;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+
+/* Update these specific rules only */
+
+.section-container {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-container:last-of-type {
+  border-bottom: none;
+  margin-bottom: 15px;
+}
+
+.section-container h2 {
+  font-size: 1.3rem;  /* Reduced from 1.5rem */
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 8px;  /* Reduced from 10px */
+  padding-bottom: 6px;  /* Reduced from 8px */
+  border-bottom: 2px solid #b7c5e0;
+}
+
+.thematic-editor {
+  color: #666;
+  margin-bottom: 15px;  /* Reduced from 20px */
+  font-size: 0.95rem;  /* Slightly smaller */
+}
+
+.chapter-list li {
+  margin-bottom: 10px;  /* Reduced from 12px */
+  padding-bottom: 10px;  /* Reduced from 12px */
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;  /* Reduced from 1.5 */
+}
+
+.chapter-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3px;  /* Reduced from 4px */
+  display: block;
+}
+
+.chapter-authors {
+  color: #666;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+
+/*
+
+.section-container {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-container:last-of-type {
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+.section-container h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #b7c5e0;
+}
+
+.thematic-editor {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.thematic-editor em {
+  color: #2c3e50;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.chapter-list {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.chapter-list li {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #eee;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.chapter-list li:last-child {
+  border-bottom: none;
+}
+
+.chapter-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.chapter-authors {
+  color: #666;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+*/
