@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <title>Meeting Schedule - Modal Logic Today</title>
+  <title>Online Meetings</title>
+  <style>
+    details.meetings-section { margin-top: 15px; }
+    details.meetings-section > summary { cursor: pointer; color: #2c3e50; }
+    details.meetings-section > summary h3 { display: inline; margin: 0; }
+    details.meetings-section > summary:hover h3 { color: #2980b9; text-decoration: underline; }
+  </style>
 </head>
 <body>
   <div id="centerContainer">
     <a href="index.html">&larr; Back to Home</a>
-    <h1>Chapter Outline Meetings</h1>
+    <h1>Online Meetings</h1>
+
+    <details class="meetings-section">
+    <summary><h3>Chapter Outlines</h3></summary>
     <p>All times are in Central European Summer Time (CEST).</p>
     <div class="schedule-container">
       <table class="schedule-table">
@@ -47,6 +56,183 @@
         </tbody>
       </table>
     </div>
+
+    </details>
+
+    <details class="meetings-section">
+    <summary><h3>Chapter Sessions with Authors</h3></summary>
+    <p>All times are in Central European Summer Time (CEST).</p>
+
+    <h4>Session 1 — Thursday, 3 September</h4>
+    <div class="schedule-container">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Chapter</th>
+            <th>Presenter(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-cell">09:00–09:30</td>
+            <td class="session-cell">Modal Fixpoint Logics</td>
+            <td>Yde Venema</td>
+          </tr>
+          <tr>
+            <td class="time-cell">09:30–10:00</td>
+            <td class="session-cell">Decidable Fragments</td>
+            <td>Emanuel Kieroński, Ian Pratt-Hartmann, Lidia Tendera</td>
+          </tr>
+          <tr>
+            <td class="time-cell">10:00–10:30</td>
+            <td class="session-cell">Conditional Logics</td>
+            <td>Jen Davoren, Paul Egré, Marianna Girlando</td>
+          </tr>
+          <tr>
+            <td class="time-cell">10:30–11:00</td>
+            <td class="session-cell">Break</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="time-cell">11:00–11:30</td>
+            <td class="session-cell">Epistemic Predicate Logic</td>
+            <td>R. Ramanujam, Yanjing Wang</td>
+          </tr>
+          <tr>
+            <td class="time-cell">11:30–12:00</td>
+            <td class="session-cell">Modal Game Logic</td>
+            <td>Sujata Ghosh, Dominik Klein</td>
+          </tr>
+          <tr>
+            <td class="time-cell">14:00–14:30</td>
+            <td class="session-cell">Finite Model Theory</td>
+            <td>Martin Otto</td>
+          </tr>
+          <tr>
+            <td class="time-cell">14:30–15:00</td>
+            <td class="session-cell">Modal Logics and Machine Learning</td>
+            <td>Antti Kuusisto, Carsten Lutz</td>
+          </tr>
+          <tr>
+            <td class="time-cell">15:00–16:30</td>
+            <td class="session-cell">Break/Buffer</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="time-cell">16:30–17:00</td>
+            <td class="session-cell">Non-Classical Logics</td>
+            <td>Søren Knudstorp</td>
+          </tr>
+          <tr>
+            <td class="time-cell">17:00–17:30</td>
+            <td class="session-cell">Alternatives to Possible World Semantics</td>
+            <td>Guillaume Massas, Vít Puncochar</td>
+          </tr>
+          <tr>
+            <td class="time-cell">17:30–18:00</td>
+            <td class="session-cell">Higher-Order Modal Logic</td>
+            <td>Peter Fritz</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>Session 2 — Tuesday, 8 September</h4>
+    <div class="schedule-container">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Chapter</th>
+            <th>Presenter(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-cell">14:00–14:30</td>
+            <td class="session-cell">Coalgebraic Modal Logic</td>
+            <td>Helle Hansen, Lutz Schröder</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>Session 3 — Tuesday, 6 October</h4>
+    <div class="schedule-container">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Chapter</th>
+            <th>Presenter(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-cell">09:00–09:30</td>
+            <td class="session-cell">Proof Systems for Modal Logic</td>
+            <td>Roman Kuznets, Sara Negri</td>
+          </tr>
+          <tr>
+            <td class="time-cell">09:30–10:00</td>
+            <td class="session-cell">Non-Well-Founded and Cyclic Proofs</td>
+            <td>Bahareh Afshari, Graham Leigh, Daniyar Shamkanov</td>
+          </tr>
+          <tr>
+            <td class="time-cell">10:00–10:30</td>
+            <td class="session-cell">Break</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="time-cell">10:30–11:00</td>
+            <td class="session-cell">Modal Logic in Topology and Set Theory</td>
+            <td>Juan Aguilera, Guram Bezhanishvili, Nick Bezhanishvili</td>
+          </tr>
+          <tr>
+            <td class="time-cell">11:00–11:30</td>
+            <td class="session-cell">Dynamic Epistemic Logic</td>
+            <td>Alexandru Baltag</td>
+          </tr>
+          <tr>
+            <td class="time-cell">11:30–12:00</td>
+            <td class="session-cell">Social Epistemic Logic (Social Network Logic)</td>
+            <td>Sonja Smets</td>
+          </tr>
+          <tr>
+            <td class="time-cell">12:00–14:00</td>
+            <td class="session-cell">Break</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="time-cell">14:00–14:30</td>
+            <td class="session-cell">Higher-Order Modal Logic</td>
+            <td>Peter Fritz</td>
+          </tr>
+          <tr>
+            <td class="time-cell">14:30–15:00</td>
+            <td class="session-cell">Temporal Logic and Verification</td>
+            <td>Stéphane Demri</td>
+          </tr>
+          <tr>
+            <td class="time-cell">15:00–15:30</td>
+            <td class="session-cell">Epistemic Logic and Epistemology</td>
+            <td>Adam Bjorndahl, Aybüke Özgün</td>
+          </tr>
+          <tr>
+            <td class="time-cell">15:30–16:00</td>
+            <td class="session-cell">Intuitionistic Modal Logic with Applications</td>
+            <td>Iris van der Giessen, Rosalie Iemhoff, Tadeusz Litak</td>
+          </tr>
+          <tr>
+            <td class="time-cell">16:00–16:30</td>
+            <td class="session-cell">Reflection Algebras and Logics</td>
+            <td>Lev Beklemishev, David Fernández-Duque, Joost Joosten</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </details>
   </div>
 
 <!--
