@@ -18,7 +18,9 @@
     .home-nav button::before { content: "\25B8\00A0"; font-size: 0.8em; }
     .home-nav button[aria-expanded="true"]::before { content: "\25BE\00A0"; }
     #editors-list { margin: 10px 0 0; line-height: 1.6; }
-    .home-contact { margin: 18px 0 0; }
+    .home-contact { margin: 18px 0 0; line-height: 1.4; }
+    .home-contact em { color: #2c3e50; }
+    .home-contact-next { margin-top: 6px; }
     /* Homepage only: slightly tighter spacing so the page fits on one screen */
     #centerContainer > .blurb { margin: 15px 0 0; }
 
@@ -26,7 +28,7 @@
     #pm-wrap {
       position: relative;
       /* as wide as possible, but never so tall that the page needs scrolling */
-      width: min(1000px, calc(100vw - 32px), calc((100vh - 418px) * 2.364));
+      width: min(1000px, calc(100vw - 32px), calc((100vh - 456px) * 2.364));
       min-width: min(520px, calc(100vw - 32px));
       left: 50%;
       transform: translateX(-50%);
@@ -144,7 +146,9 @@
     </ul>
     </div>
 
-    <p class="home-contact">Please contact <a href="https://forskning.ruc.dk/en/persons/patrickb">Patrick Blackburn</a>, <a href="https://staff.fnwi.uva.nl/j.vanbenthem/">Johan van Benthem</a>, or <a href="https://www.csc.liv.ac.uk/~frank/">Frank Wolter</a> if you have any questions or comments.</p>
+    <p class="home-contact"><em>Contemporary Modal Logic</em> will be published open access by Amsterdam University Press/Central European University Press (<a href="https://www.aup.nl/en/">https://www.aup.nl/en/</a>).</p>
+
+    <p class="home-contact home-contact-next">Please contact <a href="https://forskning.ruc.dk/en/persons/patrickb">Patrick Blackburn</a>, <a href="https://staff.fnwi.uva.nl/j.vanbenthem/">Johan van Benthem</a>, or <a href="https://www.csc.liv.ac.uk/~frank/">Frank Wolter</a> if you have any questions or comments.</p>
   </div>
   <script>
   /* Editors: expand / collapse below the row of links */
